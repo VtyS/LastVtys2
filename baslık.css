@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Open Sans",sans-serif;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+/*renk*/
+.bg-dark-blue{
+    background: rgb(10, 10, 84);
+}
+.bg-light-blue{
+    background: #336ea2;
+}
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.5rem;
+
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 4px;
+}
